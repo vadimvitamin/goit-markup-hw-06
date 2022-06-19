@@ -858,6 +858,7 @@ transform: translateY(0%);
   width: 200px;
   height: 50px;
   /* margin-left: 12px; */
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -889,7 +890,20 @@ form {
   letter-spacing: 0.03em;
   margin: 40px 40px 12px 40px;
 }
-.rules-checkbox {
+.stroke-name {
+
+}
+.name-icon {
+  position: absolute;
+}
+
+.check-thumb {
+
+}
+.check {
+
+}
+.conditions-checkbox {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
