@@ -890,11 +890,24 @@ form {
   letter-spacing: 0.03em;
   margin: 40px 40px 12px 40px;
 }
-/* .stroke-name {
-
-} */
+.stroke-name-thumb {
+  position: relative;
+}
+.stroke-name {
+  /* box-sizing: border-box; */
+  /* position: absolute; */
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+}
 .name-icon {
-  position: absolute;
+  position: absolute; 
+  /* width: 0; 
+  height: 0; */
+  /* overflow: hidden; */
 }
 
 /* .check-thumb {
