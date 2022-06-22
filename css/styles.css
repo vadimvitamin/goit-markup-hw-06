@@ -941,10 +941,11 @@ height: 120px
 /* .check-thumb {
 
 } */
-/* .check {
-
-} */
+.check {
+margin-top: 20px;
+}
 .conditions-checkbox {
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
