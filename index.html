@@ -542,31 +542,49 @@
           </svg>
         </button>
 
-<form name="signup_form" autocomplete="on" novalidate>
-  <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-<div>
-   <label for="name">Имя</label>
-   <div class="stroke-name-thumb">
-    <input class="stroke-name" type="text" name="name" id="name">
-    <svg class="name-icon" width="18" height="18">
-      <use href="./images/icons.svg#icon-icon-name"></use>
-    </svg>
-   </div>
-</div>
-  <label for="tel">Телефон</label>
-  <input type="text" name="tel" placeholder="" id="tel"> 
-  <label for="mail">Почта</label>
-  <input type="email" name="mail" placeholder="" id="mail"> 
-  <label for="coment">Коментарий</label>
-  <textarea name="feedback" rows="5" placeholder="Введите текст"></textarea>
- 
-<div class="check-thumb">
-  <input class="check" type="checkbox" name="checkbox"  id="" >
-  <label class="conditions-checkbox" for="conditions">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-</div>
+          <form name="signup_form" autocomplete="on" novalidate>
+               <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                <div>
+                  <label class="name-thumb" for="name">Имя</label>
+                  <div class="stroke-name-thumb">
+                    <input class="stroke-name" type="text" name="name" id="name">
+                        <svg class="name-icon" width="18" height="18">
+                          <use href="./images/icons.svg#icon-icon-name"></use>
+                        </svg>                       
+                  </div>
+                </div>
 
-  <button class="modal-button-input" type="submit">Отправить</button>
-</form>
+                 <div>
+                    <label class="name-thumb" for="tel">Телефон</label>
+                      <div>
+                        <input class="stroke-name" type="text" name="tel" placeholder="" id="tel">
+                      <svg class="name-icon" width="18" height="18">
+                         <use href="./images/icons.svg#icon-icon-phone"></use>
+                       </svg>
+                     </div>                 
+                  </div>
+
+                   <div>
+                     <label class="name-thumb" for="mail">Почта</label>
+
+                     <div>
+                           <input class="stroke-name" type="email" name="mail" placeholder="" id="mail"> 
+                             <svg class="name-icon" width="18" height="18">
+                              <use href="./images/icons.svg#icon-icon-email"></use>
+                            </svg>                     
+                     </div>
+                  </div>
+
+                    <label class="name-thumb" for="coment">Коментарий</label>
+                    <textarea class="stroke-name" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+          
+                      <div class="check-thumb">
+                        <input class="check" type="checkbox" name="checkbox"  id="" >
+                        <label class="conditions-checkbox" for="conditions">Соглашаюсь с рассылкой и принимаю </label>
+                      </div>
+
+                  <button class="modal-button-input" type="submit">Отправить</button>
+          </form>
       </div>
     
     </div>

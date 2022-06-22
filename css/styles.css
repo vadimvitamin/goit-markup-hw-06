@@ -888,26 +888,43 @@ form {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 40px 40px 12px 40px;
+  /* margin: 40px 40px 12px 40px; */
+}
+.name-thumb {
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+color: #757575;
 }
 .stroke-name-thumb {
-  position: relative;
+ 
 }
 .stroke-name {
   /* box-sizing: border-box; */
   /* position: absolute; */
+  outline: none;
   width: 448px;
   height: 40px;
   left: 576px;
   top: 314px;
-  border: 1px solid #2196F3;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
 .name-icon {
   position: absolute; 
-  /* width: 0; 
-  height: 0; */
+
   /* overflow: hidden; */
+}
+textarea {
+  width: 448px;
+height: 120px
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  
+  color: rgba(117, 117, 117, 0.5);
 }
 
 /* .check-thumb {
