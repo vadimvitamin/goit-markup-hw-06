@@ -935,7 +935,9 @@ height: 120px
   
   color: rgba(117, 117, 117, 0.5);
 }
-
+.rules {
+  color: #2196f3;
+}
 /* .check-thumb {
 
 } */
