@@ -967,12 +967,22 @@ textarea {
   color: #2196f3;
 }
 /* .check-thumb {
-
+display: flex;
+align-items: center;
 } */
 .check {
 margin-top: 20px;
+/* display: flex;
+align-items: center; */
 background-color: transparent;
 }
+/* .check::before {
+  content: '';
+  width: 16px;
+  height: 15px;
+  border: 0.2px solid #141313;
+  border-radius: 2px;
+} */
 
 .conditions-checkbox {
 font-weight: 400;
@@ -999,4 +1009,3 @@ letter-spacing: 0.03em;
   align-items: center;
   text-align: center;
 }
-
