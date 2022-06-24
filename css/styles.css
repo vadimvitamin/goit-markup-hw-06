@@ -894,18 +894,19 @@ form {
   margin-top: 12px;
   margin-bottom: 4px;
   font-weight: 400;
-font-size: 12px;
-line-height: 1.16;
-letter-spacing: 0.01em;
-color: #757575;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.name-thumb:focus {
+  border-color: #2196f3;
 }
 .stroke-name-thumb {
- 
+ position: relative;
 }
 .stroke-name {
-  /* box-sizing: border-box; */
-  /* position: absolute; */
-  /* margin-bottom: 10px; */
+  padding-left: 42px;
   outline: none;
   width: 100%;
   height: 40px;
@@ -914,22 +915,47 @@ color: #757575;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   background-color: transparent;
+  outline: transparent;
 }
 .stroke-name-text {
+  padding: 12px;
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+}
+.stroke-name-text:hover {
+  border-color: #2196f3;
+}
+.stroke-name-text:focus {
+  border-color: #2196f3;
+}
+.stroke-name:hover {
+ border-color: #2196F3;
+}
+.stroke-name:focus {
+  border-color: #2196f3;
 }
 .name-icon {
+  left: 12px;
   position: absolute; 
-
-
+  top: 50%;
+  transform: translateY(-50%);
+  /* margin: 12px; */
   /* overflow: hidden; */
+}
+.stroke-name:hover + .name-icon {
+fill: #2196F3;
+}
+.stroke-name:focus + .name-icon {
+  fill: #2196f3;
+  border-color: #2196F3;
 }
 textarea {
   width: 448px;
-height: 120px
+  height: 120px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
