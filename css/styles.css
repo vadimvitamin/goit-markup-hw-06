@@ -982,32 +982,31 @@ textarea {
 display: flex;
 align-items: center;
 } */
-/* .check {
+.check {
 margin-top: 20px;
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
 background-color: transparent;
 position: absolute;
-} */
-/* .check:checked .check-icon {
-  position: absolute;
-  background-image: url(/images/vector-check.svg);
-} */
-.check-icon {
-width: 16px;
-height: 15px;
-background-color: #212121;
 }
-/* .check::before {
-  content: '';
+.check:checked + .check-box {
+  background-image: url(/images/vector-check.svg);
+  background-color: #2196F3;
+}
+.check-box {
+  margin-left: -23px;
+  position: absolute;
   width: 16px;
   height: 15px;
-  border: 0.2px solid #141313;
-  border-radius: 2px;
-} */
+  background-image: url(/images/vector-check.svg);
+  background-color: #ffffff;
+  border: 1px solid #212121;
+  background-repeat: no-repeat;
+}
 
 .conditions-checkbox {
+padding-left: 23px;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
