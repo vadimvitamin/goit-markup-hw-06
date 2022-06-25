@@ -842,10 +842,11 @@ transform: translateY(0%);
 
 .email-input {
   display: flex;
-  flex-wrap: wrap;
+  align-items: baseline;
   margin-left: 93px;
 }
 .input-text {
+  display: block;
   width: 358px;
   height: 50px;
   color: rgba(255, 255, 255, 0.6);
@@ -857,17 +858,26 @@ transform: translateY(0%);
 .send-button {
   width: 200px;
   height: 50px;
-  /* margin-left: 12px; */
+  margin-left: 12px;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196F3;
+  background-color: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: transparent;
 }
+
+/* .sub-btn {
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+    padding-right: 0;
+} */
+
 .footer-title-send {
   margin-bottom: 20px;
   font-weight: 700;
@@ -970,11 +980,22 @@ textarea {
 display: flex;
 align-items: center;
 } */
-.check {
+/* .check {
 margin-top: 20px;
-/* display: flex;
-align-items: center; */
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 background-color: transparent;
+position: absolute;
+} */
+/* .check:checked .check-icon {
+  position: absolute;
+  background-image: url(/images/vector-check.svg);
+} */
+.check-icon {
+width: 16px;
+height: 15px;
+background-color: #212121;
 }
 /* .check::before {
   content: '';
