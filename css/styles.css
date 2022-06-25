@@ -841,8 +841,7 @@ transform: translateY(0%);
 }
 
 .email-input {
-  display: flex;
-  align-items: baseline;
+  justify-content: flex-start;
   margin-left: 93px;
 }
 .input-text {
@@ -880,7 +879,7 @@ transform: translateY(0%);
   fill: #ffffff;
 }
 
-.footer-title-send {
+.footer-title-send{
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
