@@ -992,12 +992,12 @@ background-color: transparent;
 position: absolute;
 }
 .check-input:checked + .check-box {
-  background-image: url(../images/vector-check.svg);
+  background-image: url(/images/vector-check.svg);
   background-color: #2196F3;
   background-size: contain;
 }
 .check-input:focus {
-  background-image: url(../images/vector-box.svg);
+  background-image: url(/images/vector-box.svg);
   border-color: transparent;
 }
 
