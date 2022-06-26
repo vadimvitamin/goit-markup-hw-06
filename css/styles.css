@@ -1007,9 +1007,14 @@ position: absolute;
   width: 16px;
   height: 15px;
   background-color:#FFFFFF;
-  background-image: url(/images/vector-box.svg);
+  /* background-image: url(/images/vector-box.svg); */
   border-radius: 4px;
   background-repeat: no-repeat;
+}
+.check-box-border {
+  width:16px;
+  height: 15px;
+  border-radius: 4px;
 }
 
 .check {
