@@ -876,7 +876,6 @@ transform: translateY(0%);
 }
 
 .icon-send {
-  /* margin-left: 13px 28px 13px 10px; */
   fill: #ffffff;
 }
 
@@ -889,16 +888,17 @@ transform: translateY(0%);
   text-transform: uppercase;
 }
 
-/* form {
+form {
   display: flex;
+  flex-direction: column;
+  margin: 75px 40px 164px 40px;
 }
-.modal-title { */
+.modal-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  /* margin: 40px 40px 12px 40px; */
 }
 .name-thumb {
   margin-top: 12px;
@@ -911,8 +911,6 @@ transform: translateY(0%);
 }
 .name-thumb:focus {
   border-color: #2196f3;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .stroke-name-thumb {
  position: relative;
