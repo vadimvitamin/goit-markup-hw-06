@@ -988,6 +988,8 @@ textarea {
  }
 .check-text {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
