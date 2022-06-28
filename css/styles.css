@@ -244,7 +244,7 @@ header > .container {
 }
 .modal {
   width: 528px;
-  height: 581px;
+  padding: 40px;
   background-color: #FFFFFF;
   position: absolute;
   top: 50%;
@@ -857,6 +857,8 @@ transform: translateY(0%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  padding: 0 16px;
+  outline: transparent;
 }
 .send-button {
   display: inline-flex;
@@ -865,7 +867,7 @@ transform: translateY(0%);
   height: 50px;
   margin-left: 12px;
   /* margin-right: 10px; */
-  padding-left: 29px;
+  padding:10px 28px;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -879,6 +881,7 @@ transform: translateY(0%);
 }
 
 .icon-send {
+  margin-left: 10px;
   fill: #ffffff;
 }
 
@@ -894,7 +897,6 @@ transform: translateY(0%);
 form {
   display: flex;
   flex-direction: column;
-  margin: 75px 40px 164px 40px;
 }
 .modal-title {
   font-weight: 700;
@@ -902,9 +904,11 @@ form {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 12px;
 }
 .name-thumb {
-  margin-top: 12px;
+  /* margin-top: 12px; */
+  display: block;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -915,8 +919,12 @@ form {
 .name-thumb:focus {
   border-color: #2196f3;
 }
+.stroke-thumb {
+  margin-bottom: 10px;
+}
 .stroke-name-thumb {
  position: relative;
+ display: block;
 }
 .stroke-name {
   padding-left: 42px;
@@ -938,6 +946,7 @@ form {
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
+  resize: none;
 }
 .stroke-name-text:hover {
   border-color: #2196f3;
@@ -956,8 +965,6 @@ form {
   position: absolute; 
   top: 50%;
   transform: translateY(-50%);
-  /* margin: 12px; */
-  /* overflow: hidden; */
 }
 .stroke-name:hover + .name-icon {
 fill: #2196F3;
