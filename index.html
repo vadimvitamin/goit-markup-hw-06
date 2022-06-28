@@ -583,15 +583,15 @@
 
                     <label class="name-thumb" for="coment">Коментарий</label>
                     <textarea class="stroke-name-text" name="feedback" rows="5" placeholder="Введите текст"></textarea>
-          
-                        <label class="check">
-                        <input class="check-input" type="checkbox" name="checkbox" checked>
-                        <span class="check-box">
-                          <svg class="check-box-border">
-                            <use href="./images/icons.svg#icon-vector-box"></use>
-                          </svg>
-                        </span>
-                        Соглашаюсь с рассылкой и принимаю <a class="rules" href="">Условия договора</a></label>
+       <!-- CHECK -->
+              <input class="input-check visuality-hiden " type="checkbox" name="privacy" id="privacy">
+                <label for="privacy" class="check-text">
+                  <span class="text-span">
+                    <svg class="check-icon" width="11" height="8">
+                      <use href="./images/icons.svg#icon-vector-check"></use>
+                    </svg>
+                  </span> Соглашаюсь с рассылкой и принимаю <a class="rules" href="">Условия договора</a>
+              </label>
 
                   <button class="modal-button-input" type="submit">Отправить</button>
           </form>
