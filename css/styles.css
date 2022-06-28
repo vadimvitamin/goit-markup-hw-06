@@ -972,35 +972,47 @@ textarea {
 }
 
 .rules {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-left: 5px;
   color: #2196f3;
 }
 .input-check:checked + .check-text span {
- background-color: #2196F3;
- border: none;
+  background-color: #2196F3;
+  border: none;
 }
 .input-check:checked + .check-text .check-icon {
   fill:var(--white-text-color)
  }
-
+.check-text {
+  display: flex;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 .check-text span {
- width: 16px;
- height: 15px;
- border: 1px solid #757575;
- border-radius: 2px;
- margin-right: 7px;
- display: flex;
- align-items: center;
- justify-content: center;
+  width: 16px;
+  height: 15px;
+  border: 1px solid #757575;
+  border-radius: 2px;
+  margin-right: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .check-icon {
   fill: transparent;
 }
 .text-span {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .visuality-hiden {
   position: absolute;
