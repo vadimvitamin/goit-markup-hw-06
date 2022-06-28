@@ -981,12 +981,7 @@ textarea {
 .input-check:checked + .check-text .check-icon {
   fill:var(--white-text-color)
  }
-.check-text {
 
-}
-.input-check {
-
-}
 .check-text span {
  width: 16px;
  height: 15px;
